@@ -1,15 +1,15 @@
 {
 	"db": {
-		"username": "<MongoDBUsername>",
-		"password": "<MongoDBPassword>",
-		"host": "<MongoDBHost>",
-		"port": "<MongoDBPort>",
-		"name": "<MongoDBName>"
+		"username": "findyourgymbuddyadmin",
+		"password": "Abcd1234!",
+		"host": "ds111123.mlab.com",
+		"port": "11123",
+		"name": "chatuserdata"
 	},
 	"sessionSecret": "<RandomString>",
 	"facebook": {
-		"clientID": "<AppID>",
-		"clientSecret": "<AppSecret>",
+		"clientID": "912061562282173",
+		"clientSecret": "9f5331fb477031acd14e5632b578b42a",
 		"callbackURL": "/auth/facebook/callback",
 		"profileFields": ["id", "displayName", "photos"]
 	},
