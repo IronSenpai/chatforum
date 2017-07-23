@@ -58,7 +58,6 @@ tx.exe
 ##Coverage output
 coverage
 
-build
 *.log
 test/files/normalise.jpg.png
 test/files/normalise-resized.jpg

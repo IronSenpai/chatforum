@@ -1,0 +1,2 @@
+"use strict";define("categorySelector",function(){var t={};var e;var n;t.init=function(a,c){c=c||function(){};n=a;e=null;n.on("click","[data-cid]",function(){var n=$(this);t.selectCategory(n.attr("data-cid"));c(e)})};t.getSelectedCategory=function(){return e};t.selectCategory=function(t){var a=n.find('[data-cid="'+t+'"]');e={cid:t,name:a.attr("data-name")};n.find('[component="category-selector-selected"]').html(a.find('[component="category-markup"]').html())};return t});
+//# sourceMappingURL=public/src/modules/categorySelector.js.map
