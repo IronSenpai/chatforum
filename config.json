@@ -1,0 +1,12 @@
+{
+    "url": "https://chatforum.herokuapp.com",
+    "secret": "4ac4788b-e932-46f2-b90b-bac81ecf5b5f",
+    "database": "mongo",
+    "mongo": {
+        "host": "ds111123.mlab.com",
+        "port": "11123",
+        "username": "findyourgymbuddyadmin",
+        "password": "Abcd1234!",
+        "database": "chatuserdata"
+    }
+}
